@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="String1">select</string>
+    <string name="String2">Add Users</string>
+    <string name="String3">Email</string>
+    <string name="String4">Name</string>
+    <string name="String5">Gender</string>
+    <string name="String6">b.tech passing year</string>
+    <string name="String7">male</string>
+    <string name="String8">female</string>
+    <string name="String9">Submit</string>
+    <string name="String10">select date and time</string>
+    <string name="String11">How do you rate yourself</string>
+    <string name="String12">How do you rate yourself 1 to 6</string>
+    <string name="String13">eg. nousheen</string>
+    <string name="String14">noush@gmail.com</string>
+    <string name="String15">DOB</string>
+    <string name="String16">Select Dob date</string>
+    <string name="String17">How do you rate yourself</string>
+    <string name="String18">How do you rate yourself 1 to 6</string>
+    <string name="String19">1</string>
+    <string name="String20">2</string>
+    <string name="String21">3</string>
+    <string name="String22">4</string>
+    <string name="String23">5</string>
+    <string name="String24">6</string>
+    <string name="String25">Date and Time</string>
+    <string name="String26">Select Date and Time</string>
+</resources>

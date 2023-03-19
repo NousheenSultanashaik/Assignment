@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:src="@drawable/header"
+         tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/String2"
+        android:fontFamily="@font/open_sans"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String4"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <EditText
+        android:id="@+id/nameEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/String13"
+        android:textSize="12sp"
+        android:fontFamily="@font/open_sans_light"
+        tools:ignore="Autofill,TextFields" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String3"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <EditText
+        android:id="@+id/EditEmailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/String14"
+        android:textSize="12sp"
+        android:fontFamily="@font/open_sans_light"
+        tools:ignore="Autofill,TextFields" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String5"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/vector_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/men"
+            tools:ignore="ContentDescription" />
+    <Button
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+        android:id="@+id/men_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/String7"/>
+
+    <Button
+        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+        android:id="@+id/women_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/String8"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/year_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String6"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:padding="15dp">
+    <Spinner
+        android:id="@+id/dropdown"
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/down_arrow"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:entries="@array/years"
+        tools:ignore="SmallSp" />
+    <EditText
+        android:id="@+id/editableforspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="15dp"
+        android:hint="@string/String1"
+        android:inputType="none"
+        android:clickable="false"
+        android:textSize="12sp"
+        android:fontFamily="@font/open_sans_light"
+        tools:ignore="Autofill,KeyboardInaccessibleWidget" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String15"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+    <ImageView
+        android:id="@+id/calendar_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/calender"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/dob_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/String16"
+        android:textSize="12sp"
+        android:fontFamily="@font/open_sans_light"
+        tools:ignore="Autofill,TextFields" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String25"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/calender"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:hint="@string/String26"
+        android:textSize="12sp"
+        android:fontFamily="@font/open_sans_light"
+        tools:ignore="Autofill,TextFields" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String17"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0"
+        android:rating="3"
+        android:progressTint="@color/Yellow"
+
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/String18"
+        android:textAlignment="viewStart"
+        android:fontFamily="@font/open_sans"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String19"
+            android:buttonTint="@color/mycolor"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String20"
+            android:buttonTint="@color/mycolor"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String21"
+            android:buttonTint="@color/mycolor"/>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String22"
+            android:buttonTint="@color/mycolor"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String23"
+            android:buttonTint="@color/mycolor"/>
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/String24"
+            android:buttonTint="@color/mycolor"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/submitbtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edit_btn"
+      android:text="@string/String9"
+      android:textColor="@color/white"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>

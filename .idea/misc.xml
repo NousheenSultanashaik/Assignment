@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/drawable/arrow_down.xml" value="0.159" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/drawable/but_back.xml" value="0.157" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/drawable/down_arrows.xml" value="0.158" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/drawable/edit_btn.xml" value="0.1915" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/drawable/empty_star.xml" value="0.159" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1915" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/layout/activity_main.xml" value="0.2140077821011673" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/layout/list_item.xml" value="0.1484375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.159" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1915" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
