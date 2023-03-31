@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">7minutesWorkoutapp</string>
+    <string name="String1">START</string>
+    <string name="String2">start image</string>
+    <string name="String3">Get Ready For</string>
+    <string name="String4">ExerciseName</string>
+    <string name="image">String5</string>
+    <string name="String6">upcomming exercise</string>
+
+
+</resources>

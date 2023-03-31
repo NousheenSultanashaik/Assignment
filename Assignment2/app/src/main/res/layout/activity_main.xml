@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/headerfornextassignment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/add_users_heading"
+        android:layout_width="92dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="40dp"
+        android:text="Add Users"
+        android:textColor="@color/lightgray"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/name_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="29dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_users_heading"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="name"
+        android:hint="Enter name"
+        android:inputType="text"
+        android:textColor="@color/lightgray"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_textview"
+        tools:ignore="SpUsage,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/email_textview"
+        android:layout_width="29dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:text="Email"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_edittext"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="name"
+        android:hint="Enter your mail Id"
+        android:inputType="text"
+        android:textColor="@color/lightgray"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_textview"
+        tools:ignore="SpUsage,TextFields,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/gender_textview"
+        android:layout_width="35dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:text="Gender"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_edittext"
+        tools:ignore="SpUsage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

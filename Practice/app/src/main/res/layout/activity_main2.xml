@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/headerfornextassignment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/add_users_heading"
+        android:layout_width="92dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/String1"
+        android:textColor="@color/lightgray"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/name_textview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="29dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String2"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_users_heading"
+        tools:ignore="SpUsage,TextContrastCheck" />
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="name"
+        android:fontFamily="@font/open_sans"
+        android:hint="@string/String5"
+        android:inputType="text"
+        android:textColor="@color/lightgray"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_textview"
+        tools:ignore="SpUsage,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    <TextView
+        android:id="@+id/email_textview"
+        android:layout_width="29dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String3"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_edittext"
+        tools:ignore="SpUsage,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/email_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="name"
+        android:fontFamily="@font/open_sans"
+        android:hint="@string/String4"
+        android:inputType="text"
+        android:textColor="@color/lightgray"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_textview"
+        tools:ignore="SpUsage,TextFields,TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/gender_textview"
+        android:layout_width="35dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String6"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_edittext"
+        tools:ignore="SpUsage,TextContrastCheck" />
+
+
+    <ImageView
+        android:id="@+id/vector_image_view"
+        android:layout_width="59dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="242dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toEndOf="@+id/gender_textview"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_male"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/maleButton"
+        android:layout_width="59dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="8dp"
+        android:padding="3dp"
+        android:text="@string/String9"
+        android:textColor="@color/lightgray"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@id/gender_textview"
+        app:layout_constraintTop_toBottomOf="@id/gender_textview"
+        tools:ignore="SpUsage,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/femaleButton"
+        android:layout_width="60dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"
+        android:text="@string/String10"
+        android:textColor="@color/lightgray"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@id/maleButton"
+        app:layout_constraintTop_toBottomOf="@id/gender_textview"
+        tools:ignore="SpUsage,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/btechpassout_textview"
+        android:layout_width="89dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String7"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/femaleButton"
+        tools:ignore="SpUsage,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/btechpassout_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="year"
+        android:fontFamily="@font/open_sans"
+        android:hint="@string/String8"
+        android:inputType="text"
+        android:textColor="@color/lightgray"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btechpassout_textview"
+        tools:ignore="SpUsage,TextFields,TouchTargetSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/yearSelectorArrow"
+        android:layout_width="13.3dp"
+        android:layout_height="6.79dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="33.29dp"
+        android:src="@drawable/ic_arrow"
+        app:layout_constraintBottom_toTopOf="@+id/btechpassout_edittext"
+        app:layout_constraintEnd_toEndOf="@id/btechpassout_edittext"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/gender_textview"
+        app:layout_constraintTop_toBottomOf="@id/gender_textview"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/DOB_textview"
+        android:layout_width="89dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String17"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btechpassout_edittext"
+        tools:ignore="SpUsage,TextContrastCheck" />
+    <EditText
+        android:id="@+id/DOB_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="year"
+        android:fontFamily="@font/open_sans"
+        android:hint="@string/String8"
+        android:inputType="text"
+        android:textColor="@color/lightgray"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DOB_textview"
+        tools:ignore="SpUsage,TextFields,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/calendarImageView"
+        android:layout_width="18.41dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/DOB_edittext"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_dobpicker"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/Dateandtime_textview"
+        android:layout_width="80dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String18"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DOB_edittext"
+        tools:ignore="SpUsage,TextContrastCheck" />
+    <EditText
+        android:id="@+id/dateandtime_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints="year"
+        android:fontFamily="@font/open_sans"
+        android:hint="@string/String8"
+        android:inputType="text"
+        android:textColor="@color/lightgray"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Dateandtime_textview"
+        tools:ignore="SpUsage,TextFields,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/dateandtimeImageView"
+        android:layout_width="18.41dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/dateandtime_edittext"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_dateandtimepicker"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/ratingme_textview"
+        android:layout_width="120dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String19"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateandtime_edittext"
+        tools:ignore="SpUsage,TextContrastCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/rating_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingme_textview"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="28.81dp"
+        android:layout_marginBottom="204dp"
+        android:src="@drawable/ic_star_empty"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="2.72dp"
+        android:layout_marginBottom="204dp"
+        android:src="@drawable/ic_star_empty"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_guideline"
+        app:layout_constraintStart_toEndOf="@+id/star1"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="2.72dp"
+        android:layout_marginBottom="204dp"
+        android:src="@drawable/ic_star_empty"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_guideline"
+        app:layout_constraintStart_toEndOf="@+id/star2"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="2.72dp"
+        android:layout_marginBottom="204dp"
+        android:src="@drawable/ic_star_empty"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_guideline"
+        app:layout_constraintStart_toEndOf="@+id/star3"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="2.72dp"
+        android:layout_marginBottom="204dp"
+        android:src="@drawable/ic_star_empty"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_guideline"
+        app:layout_constraintStart_toEndOf="@+id/star4"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/howdoyourate_textview"
+        android:layout_width="149dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="26.81dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/String20"
+        android:textColor="@color/lighttextcolor"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star1"
+        tools:ignore="SpUsage,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/rating1_imageview"
+        android:layout_width="15.57dp"
+        android:layout_height="15.57dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:srcCompat="@drawable/empty_circle"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/rating1_number_textview"
+        android:layout_width="7dp"
+        android:layout_height="17dp"
+        android:text="@string/String21"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:layout_constraintStart_toEndOf="@+id/rating1_imageview"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/rating2_imageview"
+        android:layout_width="15.57dp"
+        android:layout_height="15.57dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/rating1_number_textview"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:srcCompat="@drawable/empty_circle"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/rating2_number_textview"
+        android:layout_width="7dp"
+        android:layout_height="17dp"
+        android:text="@string/String22"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:layout_constraintStart_toEndOf="@+id/rating2_imageview"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/rating3_imageview"
+        android:layout_width="15.57dp"
+        android:layout_height="15.57dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/rating2_number_textview"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:srcCompat="@drawable/empty_circle"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+    <TextView
+        android:id="@+id/rating3_number_textview"
+        android:layout_width="7dp"
+        android:layout_height="17dp"
+        android:text="@string/String23"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:layout_constraintStart_toEndOf="@+id/rating3_imageview"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/rating4_imageview"
+        android:layout_width="15.57dp"
+        android:layout_height="15.57dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/rating3_number_textview"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:srcCompat="@drawable/empty_circle"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+    <TextView
+        android:id="@+id/rating4_number_textview"
+        android:layout_width="7dp"
+        android:layout_height="17dp"
+        android:text="@string/String24"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:layout_constraintStart_toEndOf="@+id/rating4_imageview"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/rating5_imageview"
+        android:layout_width="15.57dp"
+        android:layout_height="15.57dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/rating4_number_textview"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:srcCompat="@drawable/empty_circle"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+    <TextView
+        android:id="@+id/rating5_number_textview"
+        android:layout_width="7dp"
+        android:layout_height="17dp"
+        android:text="@string/String25"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/howdoyourate_textview"
+        app:layout_constraintStart_toEndOf="@+id/rating5_imageview"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="337.64dp"
+        android:layout_height="50.35dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/edit_btn"
+        android:text="@string/String26"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rating5_number_textview"
+        tools:ignore="MissingConstraints,SpUsage,TextContrastCheck" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

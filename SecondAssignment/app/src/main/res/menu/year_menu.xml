@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/year_2023"
+        android:title="@string/String11" />
+    <item
+        android:id="@+id/year_2022"
+        android:title="@string/String12" />
+    <item
+        android:id="@+id/year_2021"
+        android:title="@string/String13" />
+    <!-- Add more years here -->
+    <item
+        android:id="@+id/year_2020"
+        android:title="@string/String14" />
+    <item
+        android:id="@+id/year_2019"
+        android:title="@string/String15" />
+</menu>

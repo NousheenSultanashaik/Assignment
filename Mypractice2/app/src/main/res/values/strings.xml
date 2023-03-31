@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mypractice2</string>
+    <string name="String1">Username:</string>
+    <string name="String2">Password:</string>
+    <string name="String3">LOGIN</string>
+    <string name="String4">Forgot password?</string>
+    <string name="String5">Sign Up</string>
+    <string name="String6">New Password :</string>
+    <string name="String7">Conform Password:</string>
+    <string name="String8">Reset Password</string>
+    <string name="String9">SIGN UP</string>
+    <string name="String10">Email id:</string>
+    <string name="String11">User id:</string>
+    <string name="String12">firstname</string>
+    <string name="String13">lastname</string>
+    <string name="String14">middlename</string>
+    <string name="String15">Phone.No</string>
+    <string name="String16">set password</string>
+    <string name="String17">Create account?</string>
+    <string name="String18">Dont have an account?</string>
+</resources>

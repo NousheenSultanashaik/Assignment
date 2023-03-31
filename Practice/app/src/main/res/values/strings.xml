@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="String1">Add Users</string>
+    <string name="String2">Name</string>
+    <string name="String3">Email</string>
+    <string name="String4">Enter your email Id</string>
+    <string name="String5">Enter name</string>
+    <string name="String6">Gender</string>
+    <string name="String7">Btech passout year</string>
+    <string name="String8">select</string>
+    <string name="String9">Male</string>
+    <string name="String10">Female</string>
+    <string name="String11">2023</string>
+    <string name="String12">2022</string>
+    <string name="String13">2021</string>
+    <string name="String14">2020</string>
+    <string name="String15">2019</string>
+    <string name="String16">How do you rate your self</string>
+    <string name="String17">DOB</string>
+    <string name="String18">Date and Time</string>
+    <string name="String19">How do you rate yourself</string>
+    <string name="String20">How do you rate your self 1 to 6</string>
+    <string name="String21">1</string>
+    <string name="String22">2</string>
+    <string name="String23">3</string>
+    <string name="String24">4</string>
+    <string name="String25">5</string>
+    <string name="String26">Save</string>
+    <string name="String27">Users</string>
+    <string name="String28">Edit</string>
+
+</resources>

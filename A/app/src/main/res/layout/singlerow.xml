@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+            android:id="@+id/cancel"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="7dp"
+            android:background="@drawable/minus"
+            android:visibility="gone"
+        />
+    <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/boarder"
+            android:foreground="@drawable/boarder"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            >
+            <TextView
+                android:id="@+id/userImg"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="43dp"
+                android:background="@drawable/usermale"
+
+
+                />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/innerview"
+                android:layout_width="220dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linearr1"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
+                    <TextView
+                        android:layout_width="45dp"
+                        android:layout_height="20dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:paddingStart="2dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/String8"
+                        android:textSize="12dp"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        tools:ignore="RtlSymmetry,SpUsage" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="75dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans"
+                        android:padding="2dp"
+                        android:textSize="12dp"
+
+                        tools:ignore="SpUsage" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linearr2"
+                    android:layout_width="190dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toStartOf="@id/linearr1"
+                    app:layout_constraintTop_toBottomOf="@id/linearr1"
+                    >
+
+                    <TextView
+                        android:layout_width="87dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:paddingStart="2dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/String7"
+                        android:textSize="12dp"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+                        android:id="@+id/tvemailid"
+                        android:layout_width="100dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans"
+                        android:paddingBottom="2dp"
+                        android:textSize="12dp"
+
+                        tools:ignore="SpUsage" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linear3"
+                    android:layout_width="110dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toStartOf="@id/linearr2"
+                    app:layout_constraintTop_toBottomOf="@id/linearr2"
+
+                    >
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:paddingStart="2dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/String6"
+                        android:textSize="12dp"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+                        android:id="@+id/tvgender"
+                        android:layout_width="60dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans"
+                        android:paddingBottom="2dp"
+                        android:textSize="12dp"
+
+                        tools:ignore="SpUsage" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linear4"
+                    android:layout_width="195dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toStartOf="@id/linear3"
+                    app:layout_constraintTop_toBottomOf="@id/linear3"
+
+                    >
+
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:paddingStart="2dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/String5"
+                        android:textSize="12dp"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+                        android:id="@+id/tvbtech"
+                        android:layout_width="65dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans"
+                        android:paddingBottom="2dp"
+                        android:textSize="12dp"
+
+                        tools:ignore="SpUsage" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linear5"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toStartOf="@id/linear4"
+                    app:layout_constraintTop_toBottomOf="@id/linear4"
+
+                    >
+
+                    <TextView
+                        android:layout_width="37dp"
+                        android:layout_height="20dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:paddingStart="2dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/String4"
+                        android:textSize="12dp"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+                        android:id="@+id/tvdob"
+                        android:layout_width="80dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans"
+                        android:paddingBottom="2dp"
+                        android:textSize="12dp"
+
+                        tools:ignore="SpUsage" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linear6"
+                    android:layout_width="220dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toStartOf="@id/linear5"
+                    app:layout_constraintTop_toBottomOf="@id/linear5"
+
+                    >
+
+                    <TextView
+                        android:layout_width="97dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans_semibold"
+                        android:paddingStart="2dp"
+                        android:paddingBottom="2dp"
+                        android:text="@string/String3"
+                        android:textSize="12dp"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        tools:ignore="SpUsage" />
+
+                    <TextView
+                        android:id="@+id/tvdatetime"
+                        android:layout_width="120dp"
+                        android:layout_height="18dp"
+                        android:fontFamily="@font/open_sans"
+                        android:paddingBottom="2dp"
+                        android:textSize="12dp"
+
+                        tools:ignore="SpUsage" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linearstars"
+                android:layout_width="55dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="24dp"
+                android:gravity="center"
+
+                >
+
+                <TextView
+                    android:id="@+id/tvstar1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+
+                    android:background="@drawable/ic_star_empty"
+                    android:padding="2dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvstar2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+
+                    android:background="@drawable/ic_star_empty"
+                    android:padding="2dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvstar3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/ic_star_empty"
+                    android:padding="2dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvstar4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+
+                    android:background="@drawable/ic_star_empty"
+                    android:padding="2dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvstar5"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+
+                    android:background="@drawable/ic_star_empty"
+                    android:padding="2dp"
+
+                    />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+

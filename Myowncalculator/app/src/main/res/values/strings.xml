@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Myowncalculator</string>
+    <string name="String1"></string>
+    <string name="String2">7</string>
+    <string name="String3">8</string>
+    <string name="String4">9</string>
+    <string name="String5">/</string>
+    <string name="String6">4</string>
+    <string name="String7">5</string>
+    <string name="String8">6</string>
+    <string name="String9">*</string>
+    <string name="String10">1</string>
+    <string name="String11">2</string>
+    <string name="String12">3</string>
+    <string name="String13">+</string>
+    <string name="String14">-</string>
+    <string name="String15">0</string>
+    <string name="String16">CLR</string>
+    <string name="String17">+</string>
+    <string name="String18">=</string>
+    <string name="String19">.</string>
+</resources>

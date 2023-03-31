@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvinput"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/mywish5"
+        android:gravity="end|bottom"
+        android:padding="10dp"
+        android:text="@string/String1"
+        android:textSize="48sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnseven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="@string/String2"
+            android:layout_margin="2dp"
+            android:onClick="onDigit"
+            tools:ignore="ButtonStyle,NestedWeights,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btneight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/String3"
+            android:textStyle="bold"
+            android:layout_margin="2dp"
+            android:onClick="onDigit"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnnine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/String4"
+            android:textStyle="bold"
+            android:layout_margin="2dp"
+            android:onClick="onDigit"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btndivide"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/String5"
+            android:textStyle="bold"
+            android:layout_margin="2dp"
+            android:onClick="onOperator"
+            android:background="@color/mywish3"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnfour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/String6"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,NestedWeights,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnfive"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/String7"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnsix"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/String8"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnmultiply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onOperator"
+            android:text="@string/String9"
+            android:textStyle="bold"
+            android:background="@color/mywish2"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/String10"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,NestedWeights,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btntwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/String11"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnthree"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/String12"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnminus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onOperator"
+            android:text="@string/String14"
+            android:background="@color/mywish2"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        tools:ignore="ExtraText">
+
+        <Button
+            android:id="@+id/btnDot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDecimalPoint"
+            android:text="@string/String19"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,NestedWeights,UsingOnClickInXml" />
+
+
+        <Button
+            android:id="@+id/btnzero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onDigit"
+            android:text="@string/String15"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,NestedWeights,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnclr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onClear"
+            android:text="@string/String16"
+            android:textStyle="bold"
+            android:background="@color/teal_700"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:onClick="onOperator"
+            android:text="@string/String17"
+            android:background="@color/mywish2"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,UsingOnClickInXml" />
+
+            />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnequal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="2"
+            android:onClick="onEqual"
+            android:text="@string/String18"
+            android:textStyle="bold"
+            android:background="@color/mywish4"
+            tools:ignore="NestedWeights,UsingOnClickInXml" />
+
+    </LinearLayout>
+</LinearLayout>

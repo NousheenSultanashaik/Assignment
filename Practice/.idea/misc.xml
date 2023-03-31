@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/edit_btn.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/empty_circle.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/filled_circle.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/ic_arrow.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/ic_dateandtimepicker.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/ic_dobpicker.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/ic_male.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/ic_star_empty.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/ic_star_filled.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/rectangle_shape.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/star_half_yellow_icon.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/star_symbol_icon.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/drawable/women.xml" value="0.133" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/layout/cart_item.xml" value="0.1484375" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Practice/app/src/main/res/menu/year_menu.xml" value="0.14947916666666666" />
+      </map>
+    </option>
+  </component>
+</project>

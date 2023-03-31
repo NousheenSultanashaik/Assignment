@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@drawable/background2"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="292dp"
+        android:textSize="48sp"
+        andorid:layout_constraintStart_toStartOf="parent"
+        andorid:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="119dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="452dp"
+        android:layout_weight="1"
+        android:text="@string/String1"
+        andorid:layout_constraintStart_toStartOf="parent"
+        andorid:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnpause"
+        android:layout_width="119dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="132dp"
+        android:layout_weight="1"
+        android:text="@string/String2"
+        andorid:layout_constraintStart_toStartOf="parent"
+        andorid:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="119dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="580dp"
+        android:layout_weight="1"
+        android:text="@string/String3"
+        andorid:layout_constraintStart_toStartOf="parent"
+        andorid:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
